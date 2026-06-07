@@ -282,29 +282,30 @@ $R_1,R_2$については、もし与えられていなければ
 
 $l_{iP,jP}$は、点$iP,jP$ を通る直線なので、変数を$X,Y$として、
 
-$$\begin{align*}
-楕円曲線　Y^2&=X^3+aX+b\\
-直線の公式　Y&=\lambda X+\nu\\
-傾き　\lambda&=\dfrac{\Delta y}{\Delta x}\\
-\textcolor{red}{\lambda}&\textcolor{red}{=\dfrac{(jP).y-(iP).y}{(jP).x-(iP).x}}\\
-※&ただし、(iP)と(jP)が同じである場合、接線となり\\
-\textcolor{red}{\lambda}&\textcolor{red}{=\dfrac{3*((iP).x)^2+a}{2*(iP).y}}\\
+$$
+\begin{align*}
+\text{楕円曲線} \quad Y^2 &= X^3+aX+b \\
+\text{直線の公式} \quad Y &= \lambda X+\nu \\
+\text{傾き} \quad \lambda &= \dfrac{\Delta y}{\Delta x} \\
+\textcolor{red}{\lambda} &\textcolor{red}{= \dfrac{(jP)_y - (iP)_y}{(jP)_x - (iP)_x}} \\
+\text{※ただし、}(iP)\text{ と }(jP)\text{ が同じである場合、接線となり} & \\
+\textcolor{red}{\lambda} &\textcolor{red}{= \dfrac{3 \{(iP)_x\}^2 + a}{2 (iP)_y}} \\
 \\
-y軸交点　\nu&=Y-\lambda X\\
+\text{y軸交点} \quad \nu &= Y-\lambda X \\
 \\
-X,Yに点(iP)を代入すると\\
-\nu&=(iP).y-\lambda *(iP).x\\
+\text{X, Y に点 } (iP) \text{ を代入すると} & \\
+\nu &= (iP)_y - \lambda (iP)_x \\
 \\
-よって、直線lは\\
-Y&=\lambda X+(iP).y-\lambda *(iP).x\\
-Yを右辺に移項して\\
-0&=\lambda X+(iP).y-\lambda *(iP).x-Y\\
-評価に使う関数lは\\
-l: &　\lambda X+(iP).y-\lambda *(iP).x-Y\\
+\text{よって、直線 } l \text{ は} & \\
+Y &= \lambda X + (iP)_y - \lambda (iP)_x \\
+\text{Y を右辺に移項して} & \\
+0 &= \lambda X + (iP)_y - \lambda (iP)_x - Y \\
+\text{評価に使う関数 } l \text{ は} & \\
+l: \quad & \lambda X + (iP)_y - \lambda (iP)_x - Y \\
 \\
-例えば、点Qを代入した&lの評価値は、次のように求められる\\
-{l(Q)}&{=\lambda *Q.x+(iP).y-(\lambda *(iP).x)-Q.y}\\
-\textcolor{red}{l(Q)}&\textcolor{red}{=\lambda * (Q.x-(iP).x) +(iP).y-Q.y}\\
+\text{例えば、点 } Q \text{ を代入した } l \text{ の評価値は、次のように求められる} & \\
+l(Q) &= \lambda Q_x + (iP)_y - \lambda (iP)_x - Q_y \\
+\textcolor{red}{l(Q)} &\textcolor{red}{= \lambda (Q_x - (iP)_x) + (iP)_y - Q_y}
 \end{align*}
 $$
 
