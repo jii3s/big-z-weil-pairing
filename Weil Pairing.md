@@ -155,7 +155,7 @@ $$
 \text{[$n$ ねじれ点] } i=n \text{ の時の } [f_{nP}] \text{ を求めてみる} & \\
 [f_{nP}] &= n[P+R_1]-n[R_1]-[nP]+[O] \\
 &= n[P+R_1]-n[R_1]-[O]+[O] \quad (\because nP = O) \\
-&= \underline{n[P+R_1]-n[R_1]} \\  
+&= \underline{n[P+R_1]-n[R_1]} \\
 \\
 \text{また、} D_P = [P+R_1]-[R_1] \text{ を } n \text{ 倍した } nD_P \text{ は、} & \\
 nD_P &= \underline{n[P+R_1]-n[R_1]} \\
@@ -177,7 +177,8 @@ nA_P &= \underline{n[P]-n[O]} \\
 f_P &= f_{nP}
 \end{align*}
 $$
-ペアリング計算の為に求めるべき有理関数$f_P$ は、$f_{nP}$ と同じであることが分かった
+
+ペアリング計算の為に求めるべき有理関数 $f_P$ は、$f_{nP}$ と同じであることが分かった。
 #### $$\underline{f_P=f_{nP}}$$
 
 ### 3.5 有理関数 $f_{nP}$ を探索する 
