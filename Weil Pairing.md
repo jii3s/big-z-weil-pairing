@@ -150,30 +150,31 @@ $A_{ip}\sim iD_{P} $なので、
 #### $$\underline{[f_{iP}]=i[P+R_1]-i[R_1]-[iP]+[O]}$$
 
 ### 3.4 $nP$点の主因子
-$i=n$ [ねじれ$n$] の時の$[f_{nP}]を求めてみる$
-$$\begin{align*}
-[f_{nP}]&=n[P+R_1]-n[R_1]-[nP]+[O]\\
-&=n[P+R_1]-n[R_1]-[O]+[O]\\
-&=\underline{n[P+R_1]-n[R_1]}\\  
+$$
+\begin{align*}
+\text{[$n$ ねじれ点] } i=n \text{ の時の } [f_{nP}] \text{ を求めてみる} & \\
+[f_{nP}] &= n[P+R_1]-n[R_1]-[nP]+[O] \\
+&= n[P+R_1]-n[R_1]-[O]+[O] \quad (\because nP = O) \\
+&= \underline{n[P+R_1]-n[R_1]} \\  
 \\
-nD_Pは、D_P&=[P+R_1]-[R_1]をn倍し\\
-nD_p&=\underline{n[P+R_1]-n[R_1]}\\
+\text{また、} D_P = [P+R_1]-[R_1] \text{ を } n \text{ 倍した } nD_P \text{ は、} & \\
+nD_P &= \underline{n[P+R_1]-n[R_1]} \\
 \\
-[f_{nP}]をnD_Pが&同じ値になり、\\
-[f_{nP}]&=nD_P\\
+\text{したがって、} [f_{nP}] \text{ と } nD_P \text{ は同じ値になり、} & \\
+[f_{nP}] &= nD_P \\
 \\
-また、D_PとA_P&は同値なので、\\
-[f_{nP}]&=nA_P\\
+\text{また、} D_P \text{ と } A_P \text{ は主因子として同値（線形同値）なので、} & \\
+[f_{nP}] &= nA_P \\
 \\
-さらに、nA_pは\\
-nA_P&=\underline{n[P]-n[O]}\\
+\text{さらに、} nA_P \text{ は定数倍の定義より} & \\
+nA_P &= \underline{n[P]-n[O]} \\
 \\
-[f_P]の定義は\\
-[f_P]&=\underline{n[P]-n[O]}\\
+\text{ここで、通常の関数 } f_P \text{ の因子（主因子）の定義は} & \\
+(f_P) &= \underline{n[P]-n[O]} \\
 \\
-よって、[f_P]&はnA_Pと等しく、結果として[f_{nP}]とも等しくなる\\
-[f_P]&=nA_P=nD_P=[f_{nP}]\\
-f_P&=f_{nP}
+\text{よって、} (f_P) \text{ は } nA_P \text{ と等しく、結果として } [f_{nP}] \text{ とも等しくなる} & \\
+(f_P) &= nA_P = nD_P = [f_{nP}] \\
+f_P &= f_{nP}
 \end{align*}
 $$
 ペアリング計算の為に求めるべき有理関数$f_P$ は、$f_{nP}$ と同じであることが分かった
