@@ -380,9 +380,8 @@ $$l(Q) = \lambda Q_x + (iP)_y - \lambda (iP)_x - Q_y$$
 
 
 #### 4.1.2 直線 $v_{[i+j]P}$
-<p>
-  <img src="iPjP.png" alt="楕円曲線と直線">
-</p>
+
+![楕円曲線と直線](ipjp.png)
 
 直線 $v_{[i+j]P}$は、楕円曲線上の$[i+j]P$点を通る垂線であり、
 $T=iP+jP$なる点$T$を楕円曲線の加法で求めておけば、
