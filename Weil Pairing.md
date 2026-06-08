@@ -159,29 +159,29 @@ $$
 
 $$
 \begin{align*}
-\text{[$n$ ねじれ点] } i=n \text{ の時の } [f_{nP}] \text{ を求めてみる} & \\
-[f_{nP}] &= n[P+R_1]-n[R_1]-[nP]+[O] \\
-&= n[P+R_1]-n[R_1]-[O]+[O] \quad (\because nP = O) \\
-&= \underline{n[P+R_1]-n[R_1]} \\
+\text{[$n$ ねじれ点] } i=n \text{ の時の } [f_{nP}] \text{ を求めてみる} \\
+[f_{nP}] = n[P+R_1]-n[R_1]-[nP]+[O] \\
+= n[P+R_1]-n[R_1]-[O]+[O] \quad (\because nP = O) \\
+= n[P+R_1]-n[R_1] \\
 \\
-\text{また、} D_P = [P+R_1]-[R_1] \text{ を } n \text{ 倍した } nD_P \text{ は、} & \\
-nD_P &= \underline{n[P+R_1]-n[R_1]} \\
+\text{また、} D_P = [P+R_1]-[R_1] \text{ を } n \text{ 倍した } nD_P \text{ は、} \\
+nD_P = n[P+R_1]-n[R_1] \\
 \\
-\text{したがって、} [f_{nP}] \text{ と } nD_P \text{ は同じ値になり、} & \\
-[f_{nP}] &= nD_P \\
+\text{したがって、} [f_{nP}] \text{ と } nD_P \text{ は同じ値になり、} \\
+[f_{nP}] = nD_P \\
 \\
-\text{また、} D_P \text{ と } A_P \text{ は主因子として同値（線形同値）なので、} & \\
-[f_{nP}] &= nA_P \\
+\text{また、} D_P \text{ と } A_P \text{ は主因子として同値（線形同値）なので、} \\
+[f_{nP}] = nA_P \\
 \\
-\text{さらに、} nA_P \text{ は定数倍の定義より} & \\
-nA_P &= \underline{n[P]-n[O]} \\
+\text{さらに、} nA_P \text{ は定数倍の定義より} \\
+nA_P = n[P]-n[O] \\
 \\
-\text{ここで、通常の関数 } f_P \text{ の因子（主因子）の定義は} & \\
-(f_P) &= \underline{n[P]-n[O]} \\
+\text{ここで、通常の関数 } f_P \text{ の因子（主因子）の定義は} \\
+(f_P) = n[P]-n[O] \\
 \\
-\text{よって、} (f_P) \text{ は } nA_P \text{ と等しく、結果として } [f_{nP}] \text{ とも等しくなる} & \\
-(f_P) &= nA_P = nD_P = [f_{nP}] \\
-f_P &= f_{nP}
+\text{よって、} (f_P) \text{ は } nA_P \text{ と等しく、結果として } [f_{nP}] \text{ とも等しくなる} \\
+(f_P) = nA_P = nD_P = [f_{nP}] \\
+f_P = f_{nP}
 \end{align*}
 $$
 
