@@ -330,34 +330,51 @@ $R_1,R_2$については、もし与えられていなければ
 
 ![楕円曲線と直線](EC2.png)
 
-$l_{iP,jP}$は、点$iP,jP$ を通る直線なので、変数を$X,Y$として、
+$l_{iP,jP}$ は、点 $iP, jP$ を通る直線なので、変数を $X, Y$ とします。
 
-$$
-\begin{align*}
-\text{楕円曲線} \quad Y^2 = X^3+aX+b \\
-\text{直線の公式} \quad Y = \lambda X+\nu \\
-\text{傾き} \quad \lambda = \dfrac{\Delta y}{\Delta x} \\
-\textcolor{red}{\lambda} \textcolor{red}{= \dfrac{(jP)_y - (iP)_y}{(jP)_x - (iP)_x}} \\
-\text{※ただし、}(iP)\text{ と }(jP)\text{ が同じである場合、接線となり}  \\
-\textcolor{red}{\lambda} \textcolor{red}{= \dfrac{3 \{(iP)_x\}^2 + a}{2 (iP)_y}} \\
-\\
-\text{y軸交点} \quad \nu = Y-\lambda X \\
-\\
-\text{X, Y に点 } (iP) \text{ を代入すると}  \\
-\nu = (iP)_y - \lambda (iP)_x \\
-\\
-\text{よって、直線 } l \text{ は}  \\
-Y = \lambda X + (iP)_y - \lambda (iP)_x \\
-\text{Y を右辺に移項して}  \\
-0 = \lambda X + (iP)_y - \lambda (iP)_x - Y \\
-\text{評価に使う関数 } l \text{ は}  \\
-l: \quad  \lambda X + (iP)_y - \lambda (iP)_x - Y \\
-\\
-\text{例えば、点 } Q \text{ を代入した } l \text{ の評価値は、次のように求められる}  \\
-l(Q) = \lambda Q_x + (iP)_y - \lambda (iP)_x - Q_y \\
-\textcolor{red}{l(Q)} \textcolor{red}{= \lambda (Q_x - (iP)_x) + (iP)_y - Q_y}
-\end{align*}
-$$
+楕円曲線の式は、
+
+$$Y^2 = X^3 + aX + b$$
+
+直線の公式は、
+
+$$Y = \lambda X + \nu$$
+
+傾き $\lambda$ は、次のように求められます。
+
+$$\lambda = \dfrac{\Delta y}{\Delta x}$$
+
+$$\lambda = \dfrac{(jP)_y - (iP)_y}{(jP)_x - (iP)_x}$$
+
+※ただし、$(iP)$ と $(jP)$ が同じ点である場合、直線は「接線」となるため、傾き $\lambda$ は次のようになります。
+
+$$\lambda = \dfrac{3 \{(iP)_x\}^2 + a}{2 (iP)_y}$$
+
+次に、y軸交点 $\nu$ は、
+
+$$\nu = Y - \lambda X$$
+
+$X, Y$ に点 $(iP)$ の座標を代入すると、
+
+$$\nu = (iP)_y - \lambda (iP)_x$$
+
+よって、求める直線 $l$ の式は、
+
+$$Y = \lambda X + (iP)_y - \lambda (iP)_x$$
+
+$Y$ を右辺に移項すると、
+
+$$0 = \lambda X + (iP)_y - \lambda (iP)_x - Y$$
+
+したがって、評価に使う有理関数としての直線 $l$ は、次のようになります。
+
+$$l: \quad \lambda X + (iP)_y - \lambda (iP)_x - Y$$
+
+例えば、この関数に点 $Q$ を代入したときの評価値 $l(Q)$ は、次のように求められます。
+
+$$l(Q) = \lambda Q_x + (iP)_y - \lambda (iP)_x - Q_y$$
+
+**$$l(Q) = \lambda (Q_x - (iP)_x) + (iP)_y - Q_y$$**
 
 
 #### 4.1.2 直線 $v_{[i+j]P}$
