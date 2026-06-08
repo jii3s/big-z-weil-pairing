@@ -140,8 +140,19 @@ begin
     EC.r := r;
     EC.a := 0;                  //a=0 で固定
 
-    for b := 3 to 50 do         //必要時に応じてレンジを拡大する
+    for b := 3 to 50 do         //必要時応じてレンジを拡大する
     begin
         EC.b := b;              //ECパラメータ b を書き換える
         S := getECPoint(EC);    //曲線(EC)上の点を１点見つける
-        T := ECScalar(S,
+        T := ECScalar(S,r);     //点Sをねじれr倍する
+        if T = Infinity then    //無限遠点だったなら b 発見。
+        begin
+            result := b;
+            exit;
+        end;
+    end;
+
+    result := 0;                //見つからなかった
+end.
+
+```
