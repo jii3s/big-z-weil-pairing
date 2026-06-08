@@ -102,7 +102,7 @@ $P$を表す因子 $A_P=[P]-[O]$ に相当する有理関数は存在しない<b
 
 $$\begin{align*}
 A_P&=[P]-[O]\\
-n倍して　nA_P&=n[P]-n[O]\\
+nA_P&=n[P]-n[O]　　...n倍\\
 [f_P]&=n[P]-n[O]
 \end{align*}
 $$
