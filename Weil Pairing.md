@@ -417,14 +417,22 @@ $$v: \quad T.x - X$$
 
 #### 4.2.1 再帰式
 先に求めた再帰式を利用し、Weil Pairingの計算を行う
-$$f_{(i+j)P}=f_{iP}f_{jP}\dfrac{l_{iP,jP}}{v_{(i+j)P}} （略式表記）$$
 
-実際には関数に、$Q$を表す因子$A_Q$または$D_Q$を代入するので、再帰式は
-$$f_{(i+j)P}=f_{iP}f_{jP}\dfrac{l_{iP,jP}(A_Q)}{v_{(i+j)P}(A_Q)}$$  
+$$
+f_{(i+j)P}=f_{iP}f_{jP}\dfrac{l_{iP,jP}}{v_{(i+j)P}} （略式表記）
+$$
 
-具体的に計算に利用する再帰式は$D_Q$を代入し、変形することで次のようになる
+実際には関数に、 $Q$ を表す因子 $A_Q$ または$ D_Q$ を代入するので、再帰式は
 
-$${f_{(i+j)P}=f_{iP}f_{jP}\dfrac{l_{iP,jP}(Q+R_2)}{v_{(i+j)P}(Q+R_2)}*\dfrac{v_{(i+j)P}(R_2)}{l_{iP,jP}(R_2)}}$$
+$$
+f_{(i+j)P}=f_{iP}f_{jP}\dfrac{l_{iP,jP}(A_Q)}{v_{(i+j)P}(A_Q)}
+$$  
+
+具体的に計算に利用する再帰式は $D_Q$ を代入し、変形することで次のようになる
+
+$$
+{f_{(i+j)P}=f_{iP}f_{jP}\dfrac{l_{iP,jP}(Q+R_2)}{v_{(i+j)P}(Q+R_2)}*\dfrac{v_{(i+j)P}(R_2)}{l_{iP,jP}(R_2)}}
+$$
 
 <br>
 
