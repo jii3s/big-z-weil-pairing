@@ -20,7 +20,7 @@ Copyright: Copyright (c) 2025 Daiji Sanai. All rights reserved.
 #  
 # Weil Pairing e(Fp,Fp),k=1 用ペアリング曲線の生成プログラム 
 #  ※　必要な素数rのサイズを指定する
-#                                             2026.6.7 Daiji Sanai
+#                                             
 ########################################################################
 # pip install ecdsa
 # pip install sympy (mpmath-1.3.0 sympy-1.13.3)
