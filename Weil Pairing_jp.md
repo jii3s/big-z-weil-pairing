@@ -1,6 +1,9 @@
-# Weil Pairing
+---
+author: Daiji Sanai (hyler / @jii3s)
+date: 2026-06-07
+---
 
-2026/6/8改 Daiji Sanai
+# Weil Pairing
 
 ## １.定義 
 

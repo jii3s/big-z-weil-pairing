@@ -1,9 +1,10 @@
+---
+author: Daiji Sanai (hyler / @jii3s)
+date: 2026-06-07
+---
+
+
 # $E(\mathbb{F}_p)$ ペアリングフレンドリー曲線の見つけ方
-
-<div style="text-align: right;">
-2025/3/6 Daiji Sanai
-</div>
-
 ---
 
 Weil Pairingは、有限体 $\mathbb{F}_p$ 上の楕円曲線 $E(\mathbb{F}_p)$ 上でも成立する場合があります。

@@ -1,8 +1,23 @@
+"""
+WeilPairing_Fp.py
+
+World's first practical implementation of the Weil Pairing over the base field 
+F_p x F_p (k=1), enabled exclusively by the parameters discovered through 
+the Big-Z Method.
+
+While finding massive pairing-friendly curves with k=1 was previously deemed 
+unfeasible, the Big-Z Method successfully solves this challenge, unlocking 
+direct Weil pairing computation over F_p without any extension fields.
+
+Author:    Daiji Sanai (big-z / hyler / GitHub: @jii3s)
+Date:      2026-06-09
+License:   MIT License
+Copyright: Copyright (c) 2026 Daiji Sanai. All rights reserved.
+"""
+
 ########################################################################
-#
 #  Weil Pairing e(Fp,Fp),k=1 用ペアリング 
 #  ※fp1用のペアリング曲線のパラメータを予めセットする　p0,r0,a0,b0
-#                                             2026.06.07 Daiji Sanai
 ########################################################################
 # pip install ecdsa
 # pip install sympy (mpmath-1.3.0 sympy-1.13.3)
