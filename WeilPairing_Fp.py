@@ -28,12 +28,13 @@ from Fp import Fp
 
 ###################################################################
 # セットアップ　ECパラメータ サンプル (256bit class)
-#   別途 WeilPrime.py で求める
+#   別途 Big-Z_method.py で求める
 p0 = int("FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFAF1D000000000000000000000000000000000000000000000000000000000663AA53", 16)
 r0 = int("FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD78F", 16)
 a0 = 0
 b0 = 18
 ###################################################################
+
 
 ######   関数   ######
 # aが平方剰余かどうかオイラー基準テストする
