@@ -18,11 +18,12 @@ License:   MIT License
 Copyright: Copyright (c) 2026 Daiji Sanai. All rights reserved.
 """
 
+# Required Dependencies:
 # pip install ecdsa
 # pip install sympy
 
 from ecdsa.ellipticcurve import CurveFp, Point
-from sympy import isprime, nextprime, prevprime
+from sympy import isprime, prevprime
 
 def legendre(a, p):
     """
