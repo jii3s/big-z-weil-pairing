@@ -113,6 +113,8 @@ $$[f_P] = n[P] - n[O]$$
 
 ### 3.2 Divisors of Lines
 
+![Elliptic Curve and Line](EC2.png)
+
 It is a well-known fact that geometric lines intersecting an elliptic curve can be expressed as functions:
 * Line $l: y = ax + b$
 * Vertical line $v: x = c$
@@ -299,6 +301,8 @@ If $R_1$ and $R_2$ are not provided, empirical results show that selecting them 
 ### 4.1 Evaluation of Lines $l$ and $v$
 #### 4.1.1 The Line $l_{iP,jP}$
 
+![Elliptic Curve and Line](ipjp.png)
+
 $l_{iP,jP}$ is the line passing through the points $iP$ and $jP$. Let the variables for the coordinates be $X$ and $Y$.
 
 The Weierstrass equation of the elliptic curve is:
@@ -346,6 +350,8 @@ $$l(Q) = \lambda Q_x + (iP)_y - \lambda (iP)_x - Q_y$$
 **$$l(Q) = \lambda (Q_x - (iP)_x) + (iP)_y - Q_y$$**
 
 #### 4.1.2 The Vertical Line $v_{[i+j]P}$
+
+![Elliptic Curve and Line](ipjp.png)
 
 The line $v_{(i+j)P}$ represents a vertical line passing through the point $[i+j]P$ on the elliptic curve.
 
