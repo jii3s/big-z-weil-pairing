@@ -3,7 +3,7 @@ author: Daiji Sanai (hyler / @jii3s)
 date: 2026-06-07
 ---
 
-
+# Big-Z Method
 # $E(\mathbb{F}_p)$ ペアリングフレンドリー曲線の見つけ方
 ---
 
