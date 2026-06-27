@@ -9,7 +9,7 @@ While finding massive pairing-friendly curves with k=1 was previously deemed
 unfeasible, the Big-Z Method successfully solves this challenge, unlocking 
 direct Weil pairing computation over F_p without any extension fields.
 
-Author:    Daiji Sanai (big-z / hyler / GitHub: @jii3s)
+Author:    Daiji Sanai (big-z / hyler / GitHub: @jii3z)
 Date:      2026-06-09
 License:   MIT License
 Copyright: Copyright (c) 2026 Daiji Sanai. All rights reserved.

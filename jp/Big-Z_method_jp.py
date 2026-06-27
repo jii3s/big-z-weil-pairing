@@ -7,7 +7,7 @@ elliptic curves (k=1) using massive torsion primes.
 This method efficiently searches for the nearest valid torsion prime r, 
 the base prime p, and the curve parameter b for the curve y^2 = x^3 + b.
 
-Author:    Daiji Sanai (big-z / hyler / GitHub: @jii3s)
+Author:    Daiji Sanai (big-z / hyler / GitHub: @jii3z)
 Date:      2026-06-07
 License:   MIT License
 Copyright: Copyright (c) 2025 Daiji Sanai. All rights reserved.

@@ -61,6 +61,6 @@ That's it.
 
 **Daiji Sanai**
 * **Handle / Pseudonym:** hyler (Black Hat USA) / big-z (jii3)
-* **GitHub:** [@jii3s](https://github.com/jii3s)
+* **GitHub:** [@jii3z](https://github.com/jii3z)
 
 > *"The Big-Z Method — Bridging the legacy of early hacking with the future of pairing-friendly cryptography."*

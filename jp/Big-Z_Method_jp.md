@@ -1,5 +1,5 @@
 ---
-author: Daiji Sanai (hyler / @jii3s)
+author: Daiji Sanai (hyler / @jii3z)
 date: 2026-06-07
 ---
  

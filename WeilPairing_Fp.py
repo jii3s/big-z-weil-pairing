@@ -16,7 +16,7 @@ from the original Japanese implementation for global availability.
 The math and logic remain strictly untouched.
 ========================================================================
 
-Author:     Daiji Sanai (big-z / hyler / GitHub: @jii3s)
+Author:     Daiji Sanai (big-z / hyler / GitHub: @jii3z)
 Date:       2026-06-09
 License:    MIT License
 Copyright: Copyright (c) 2026 Daiji Sanai. All rights reserved.

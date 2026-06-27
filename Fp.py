@@ -1,6 +1,10 @@
 ##################################################################
 # Fpクラス mod p
-#                               2025.5.14 ~ 2025.5.20 Daiji Sanai                                                 
+# 
+# Author:    Daiji Sanai (big-z / hyler / GitHub: @jii3z)
+# Date:      2026-06-07
+# License:   MIT License
+# Copyright: Copyright (c) 2026 Daiji Sanai. All rights reserved.                                               
 ##################################################################
 class Fp : 
     def __init__(self, a ,p):
